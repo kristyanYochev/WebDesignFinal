@@ -17,6 +17,12 @@
   },
   "homepage": "https://github.com/kristyanYochev/WebDesignFinal#readme",
   "devDependencies": {
-    "gulp": "^4.0.2"
+    "autoprefixer": "^9.7.4",
+    "cssnano": "^4.1.10",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^8.0.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5"
   }
 }
