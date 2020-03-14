@@ -6,7 +6,8 @@ This is a website for an imaginary gaming console called "PlayBox 1".
 * [ ] Order Page (Enter address and shit) 
 * [ ] Game Catalogue 
 * [ ] Game Info Page (more about the game) 
-* [ ] Physical Store Locations 
+* [ ] Physical Store Locations
+* [ ] Style showcase page
 
 # Requirements
 * [ ] Host the code as on GitHub 
