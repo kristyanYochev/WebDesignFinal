@@ -3,6 +3,7 @@
 @import "elements/headers";
 @import "elements/cards";
 @import "elements/testimonials";
+@import "elements/footer";
 
 *, *::after, *::before {
 	box-sizing: border-box;
@@ -16,6 +17,7 @@
 
 body {
 	background-color: #112233;
+	min-height: 100vh;
 }
 
 body, html {
@@ -47,14 +49,33 @@ main {
 	#testimonials {
 		margin-top: 56px;
 	}
+
+	#pricing-overview {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		column-gap: 16px;
+		row-gap: 16px;
+
+		@media screen and (max-width: 768px) {
+			grid-template-columns: auto;
+			grid-template-rows: auto auto auto;
+		}
+
+		.price {
+			position: relative;
+			left: -50px;
+
+			&::after {
+				content: '/month';
+				position: absolute;
+				left: calc(100% + 3px);
+				top: 5px;
+				font-size: 0.75rem;
+			}
+		}
+	}
 }
 
 hr {
 	border: 1px solid $blue;
-}
-
-footer {
-	text-align: center;
-	background-color: $blue;
-	padding: 16px;
 }
