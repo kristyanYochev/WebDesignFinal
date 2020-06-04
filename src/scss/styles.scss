@@ -18,6 +18,11 @@ body {
 	background-color: #112233;
 }
 
+body, html {
+	margin: 0;
+	padding: 0;
+}
+
 #call-to-action {
 	display: inline-block;
 }
