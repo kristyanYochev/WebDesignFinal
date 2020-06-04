@@ -2,6 +2,7 @@
 @import "elements/buttons";
 @import "elements/headers";
 @import "elements/cards";
+@import "elements/testimonials";
 
 *, *::after, *::before {
 	box-sizing: border-box;
@@ -30,10 +31,19 @@ main {
 		grid-template-columns: 1fr 1fr;
 		display: grid;
 		column-gap: 16px;
+		row-gap: 16px;
 
 		@media screen and (max-width: 768px) {
 			grid-template-columns: auto;
 			grid-template-rows: auto auto;
 		}
 	}
+	
+	#testimonials {
+		margin-top: 56px;
+	}
+}
+
+hr {
+	border: 1px solid $blue;
 }

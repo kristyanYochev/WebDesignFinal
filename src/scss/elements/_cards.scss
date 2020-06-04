@@ -1,10 +1,10 @@
 .card {
-	background-color: whitesmoke;
+	background-color: $blue;
 	border-radius: 2px;
 
 	display: block;
 
-	color: lighten($color: #000000, $amount: 15%);
+	color: whitesmoke;
 
 	padding: 12px;
 
@@ -15,6 +15,7 @@
 	}
 
 	&-content {
-		color: lighten($color: #000000, $amount: 30%);
+		color: rgba(255, 255, 255, 0.9);
+		font-weight: lighter;
 	}
 }
