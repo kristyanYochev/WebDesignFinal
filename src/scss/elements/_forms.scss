@@ -1,0 +1,35 @@
+form {
+	.input-group {
+		margin: 16px 0;
+
+		label {
+			font-size: 1rem;
+			display: block;
+			padding: 16px 0;
+		}
+
+		input {
+			width: 100%;
+			font-size: 1.5rem;
+			border-radius: 4px;
+			background-color: transparent;
+			border: 0px solid black;
+			border-bottom: 4px solid $light-blue;
+			box-shadow: none;
+			color: whitesmoke;
+			padding: 8px;
+
+			&::placeholder {
+				color: lighten($color: $light-blue, $amount: 30%);
+			}
+		}
+	}
+
+	a {
+		color: lighten($color: $light-blue, $amount: 30%);
+	}
+
+	.card-content {
+		margin-bottom: 16px;
+	}
+}

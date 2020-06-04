@@ -21,18 +21,25 @@
 		</nav>
 	</header>
 	<main>
-		<section>
-			<h2>Overview</h2>
-			<p>You can use our API in order to embed a stream in your apps. You can also use our
-			OAuth authentication system to manage users on the platforms you are developing.</p>
-			<h2>Streaming API</h2>
-			<p>Our streaming API is very easy to use - just import our npm package, call
-			a function and we take care of the rest. You can read more about it <a href="#">here</a>.</p>
-			<h2>OAuth API</h2>
-			<p>We have exposed OAuth API, so that you can manage users on your platform without worrying
-			about passwords and email addresses. All you have to do is grab a token from <a href="#">our API console</a>,
-			write 10 lines of code and you are good to go.</p>
-		</section>
+		<div class="card">
+			<form action="#">
+				<h2 class="card-title">Sign Up</h2>
+				<div class="input-group">
+					<label for="email">Email</label>
+					<input type="email" name="email" id="email" placeholder="you@exmaple.com">
+				</div>
+				<div class="input-group">
+					<label for="password">Password</label>
+					<input type="password" name="password" id="password" placeholder="Your very secret password">
+				</div>
+				<div class="card-content">
+					<a href="#">Already have an account? Sign in.</a>
+				</div>
+				<div class="card-content">
+					<button type="submit" class="button button-primary button-medium">Register</button>
+				</div>
+			</form>
+		</div>
 	</main>
 	<footer>
 		Copyright &copy; Streamify 2020
