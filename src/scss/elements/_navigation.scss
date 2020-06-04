@@ -8,27 +8,37 @@
 	display: grid;
 
 	grid-template-columns: auto auto auto;
+	grid-template-areas: "logo blank nav";
 
 	align-items: baseline;
 
 	&-brand {
 		display: flex;
+		text-align: center;
 	}
 
 	&-logo {
 		font-size: 1.5rem;
 		color: whitesmoke;
 		text-decoration: none;
+		grid-area: logo;
+		text-align: center;
 	}
 
 	&-items {
 		float: right;
-		grid-column: 3;
+		grid-area: nav;
 		list-style: none;
 
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
+		padding-inline-start: 0px;
+	}
+
+	&-item {
+		display: block;
+		margin: 8px;
 	}
 
 	&-link {
@@ -54,4 +64,20 @@
 		}
 	}
 
+	@media screen and (max-width: 768px) {
+		grid-template-columns: auto;
+		grid-template-rows: auto auto;
+		grid-template-areas: "logo" "nav";
+
+		&-logo {
+			font-size: 2rem;
+		}
+	}
+
+	@media screen and (max-width: 624px) {
+		&-items {
+			flex-direction: column;
+			align-items: center;
+		}
+	}
 }

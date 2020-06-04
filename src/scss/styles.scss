@@ -1,6 +1,7 @@
 @import "elements/navigation";
 @import "elements/buttons";
 @import "elements/headers";
+@import "elements/cards";
 
 *, *::after, *::before {
 	box-sizing: border-box;
@@ -14,4 +15,25 @@
 
 body {
 	background-color: #112233;
+}
+
+#call-to-action {
+	display: inline-block;
+}
+
+main {
+	width: 100%;
+	max-width: 900px;
+	margin: 56px auto;
+
+	#main-features {
+		grid-template-columns: 1fr 1fr;
+		display: grid;
+		column-gap: 16px;
+
+		@media screen and (max-width: 768px) {
+			grid-template-columns: auto;
+			grid-template-rows: auto auto;
+		}
+	}
 }
