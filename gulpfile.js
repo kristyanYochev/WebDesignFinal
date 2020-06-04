@@ -27,4 +27,8 @@ function watchTask() {
 	gulp.watch(["src/scss/**/*.scss"], gulp.series(scssTask, cacheBustTask));
 }
 
-exports.default = gulp.series(scssTask, watchTask);
+const buildAndWatch = gulp.series(scssTask, watchTask);
+
+exports.default = buildAndWatch;
+exports.watch = buildAndWatch;
+exports.build = scssTask;
