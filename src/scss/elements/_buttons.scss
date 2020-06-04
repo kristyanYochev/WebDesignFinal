@@ -1,0 +1,45 @@
+@import "colors";
+
+.button {
+	&-large {
+		font-size: 1.5rem;
+		padding: 1rem 2rem;
+	}
+
+	&-medium {
+		font-size: 1rem;
+		padding: 0.66rem 1.32rem;
+		font-weight: normal;
+	}
+
+	&-small {
+		font-size: 0.66rem;
+		padding: 0.44rem 0.88rem;
+		font-weight: lighter;
+	}
+
+	&-primary {
+		background-color: $light-blue;
+	}
+
+	&-secondary {
+		background-color: transparent;
+		border: 2px solid $light-blue;
+		color: $light-blue;
+	}
+
+	&-tertiary {
+		color: $light-blue;
+		text-decoration: underline;
+		background-color: transparent;
+	}
+
+	border-radius: 4px;
+	color: whitesmoke;
+	border: 0 solid black;
+	text-decoration: none;
+
+	&:hover {
+		background-color: lighten($color: $blue, $amount: 15%);
+	}
+}

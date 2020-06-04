@@ -3,7 +3,6 @@
 	width: 100%;
 	max-width: 900px;
 	margin: 0 auto;
-	background-color: #f00;
 	display: grid;
 
 	grid-template-columns: auto auto auto;
@@ -15,7 +14,7 @@
 	}
 
 	&-logo {
-		font-size: calc(3rem / 2);
+		font-size: 1.5rem;
 		color: whitesmoke;
 		text-decoration: none;
 	}
@@ -33,5 +32,6 @@
 	&-link {
 		text-decoration: none;
 		color: whitesmoke;
+		font-size: 1rem;
 	}
 }
