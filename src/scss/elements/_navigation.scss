@@ -1,0 +1,37 @@
+.navbar {
+	padding: 16px 0;
+	width: 100%;
+	max-width: 900px;
+	margin: 0 auto;
+	background-color: #f00;
+	display: grid;
+
+	grid-template-columns: auto auto auto;
+
+	align-items: baseline;
+
+	&-brand {
+		display: flex;
+	}
+
+	&-logo {
+		font-size: calc(3rem / 2);
+		color: whitesmoke;
+		text-decoration: none;
+	}
+
+	&-items {
+		float: right;
+		grid-column: 3;
+		list-style: none;
+
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	&-link {
+		text-decoration: none;
+		color: whitesmoke;
+	}
+}

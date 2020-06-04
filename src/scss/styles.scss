@@ -1,5 +1,12 @@
+@import "elements/navigation";
+
 *, *::after, *::before {
 	box-sizing: border-box;
+}
+
+:root {
+	font-size: 18px;
+	font-family: "Lato", "Helvetica Neue", sans-serif;
 }
 
 body {
