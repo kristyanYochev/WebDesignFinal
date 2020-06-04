@@ -1,0 +1,1 @@
+{"version":3,"sources":["styles.scss"],"names":[],"mappings":"AAAA,iBACC,qBAAsB","file":"styles.css","sourcesContent":["*, *::after, *::before {\n\tbox-sizing: border-box;\n}\n"]}
