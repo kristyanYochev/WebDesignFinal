@@ -1,1 +1,1 @@
-{"version":3,"sources":["styles.scss"],"names":[],"mappings":"AAAA,iBACC,qBAAsB","file":"styles.css","sourcesContent":["*, *::after, *::before {\n\tbox-sizing: border-box;\n}\n"]}
+{"version":3,"sources":["styles.scss"],"names":[],"mappings":"AAAA,iBACC,qBAAsB,CAGvB,KACC,qBAAyB","file":"styles.css","sourcesContent":["*, *::after, *::before {\n\tbox-sizing: border-box;\n}\n\nbody {\n\tbackground-color: #112233;\n}"]}
