@@ -1,5 +1,6 @@
 # Main Idea
 This is a website for an imaginary music streaming platform "Streamify".
+[Link to Github Pages](https://kristyanyochev.github.io/WebDesignFinal/)
 
 # Pages
 * [ ] Main Page (Mostly promo material)
